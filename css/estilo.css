@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background: cadetblue;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+body{
+    background: black;
+}
+
+header{
+    background: crimson;
+    width: 100%;
+    padding: 20px;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .logo{
+    color: floralwhite;
+    font-size: 30px;
+   
+}
+
+header .logo a{
+    color: wheat;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+header .logo img{
+    width: 70px;
+    vertical-align: top;
+    
+}
+
+header nav a:hover{
+    background: grey;
+}
+
+header nav {
+width: 50%;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+header nav a {
+background: whitesmoke;
+color: black;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+    /**/
+flex-grow: 1;
+}
+
+.main{
+    background: black;
+    padding: 20px;
+    color: white;
+
+    flex: 1 1 70%;
+}
+
+.main article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+aside{
+background: whitesmoke;
+color: white;
+
+flex: 1 1 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+flex-direction: column;
+padding: 20px;
+
+}
+
+aside .widget{
+    background: darkslategray;
+    height: 150px;
+    margin:10px;
+}
+
+footer{
+    background: crimson;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .links {
+display: flex;
+flex-wrap: wrap;
+}
+
+footer .links a{
+    flex-grow: 1;
+    color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .links a:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+footer .social{
+    background:none;
+}
+
+footer .social a {
+color: whitesmoke;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+}
